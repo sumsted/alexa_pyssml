@@ -48,6 +48,6 @@ class TestIntents(TestCase):
         }
 
         response = requests.post(self.URL, json=story_request)
-        print("storyL %s" % str(response.json()))
+        print("story: %s" % str(response.json()))
         self.assertTrue('outputSpeech' in response.json()['response'])
         self.assertTrue('card' in response.json()['response'])
