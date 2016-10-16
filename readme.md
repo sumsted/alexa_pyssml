@@ -2,7 +2,7 @@
 
 This is a sample Alexa skill that uses the PySSML project https://github.com/sumsted/pyssml.
 
-PySSML is inspired and based on https://github.com/mandnyc/ssml-builder.
+PySSML is inspired and based on JavaScript project https://github.com/mandnyc/ssml-builder.
 
 ## Usage
 
