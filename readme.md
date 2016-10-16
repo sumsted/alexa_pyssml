@@ -8,6 +8,8 @@ PySSML is inspired and based on JavaScript project https://github.com/mandnyc/ss
 
 1. You'll need a couple of modules. bottle to run app and requests to run tests
 
+2. You'll need to pip install pyssml
+
 2. Create a yaml file that contains the following or replace host and port in app.py
 
     ```

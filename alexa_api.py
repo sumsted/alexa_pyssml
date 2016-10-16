@@ -1,5 +1,5 @@
 from bottle import get, post, request
-from pyssml.PySSML import PySMML
+from pyssml.PySSML import PySSML
 
 from logit import logit
 
@@ -44,7 +44,7 @@ def route_intent(alexa_request, alexa_session):
 
 
 def handle_story_intent(intent, alexa_session):
-    s = PySMML()
+    s = PySSML()
     s.paragraph("Once upon a time there was an old woman who loved baking gingerbread. She would bake gingerbread cookies, cakes, houses and gingerbread people, all decorated with chocolate and peppermint, caramel candies and colored frosting.")
     s.pause("200ms")
     s.say("Give me a")
